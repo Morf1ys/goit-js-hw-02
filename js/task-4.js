@@ -6,19 +6,19 @@ function getShippingCost(country) {
   switch (country.toLowerCase()) {
     case "china":
       price = 100;
-      sms = `Shipping to China will cost ${price} credits`;
+      sms = `Shipping to ${country} will cost ${price} credits`;
       break;
     case "australia":
       price = 170;
-      sms = `Shipping to Australia will cost ${price} credits`;
+      sms = `Shipping to ${country} will cost ${price} credits`;
       break;
     case "chile":
       price = 250;
-      sms = `Shipping to Chile will cost ${price} credits`;
+      sms = `Shipping to ${country} will cost ${price} credits`;
       break;
     case "jamaica":
       price = 120;
-      sms = `Shipping to Jamaica will cost ${price} credits`;
+      sms = `Shipping to ${country} will cost ${price} credits`;
       break;
     default:
       sms = "Sorry, there is no delivery to your country";
